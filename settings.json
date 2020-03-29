@@ -1,0 +1,42 @@
+{
+
+    // DZ customize setting
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.formatOnPaste": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "phase",
+    "files.trimFinalNewlines": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    // Language setting
+    "window.zoomLevel": 0,
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "[javascriptreact]": {},
+    "[flow]": {
+        "editor.defaultFormatter": "nuclide.prettier"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "nuclide.pyls",
+        "editor.formatOnSave": true
+    },
+    "editor.fontSize": 16,
+    "editor.fontFamily": "FiraCode-Retina, Consolas, DejaVu Sans Mono, monospace",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "300",
+    "editor.minimap.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.sideBar.location": "right",
+    "interactive-smartlog.pull": "hg pull",
+    "interactive-smartlog.fetch": "jf get",
+    "files.trimTrailingWhitespace": true,
+    "workbench.startupEditor": "welcomePage",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+    },
+    "files.exclude": {
+        "**/.code-workspace": true
+    }
+}
